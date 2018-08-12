@@ -29,7 +29,7 @@ module Onebox
       def to_html
         vid = self.video_id
         cid = self.get_cid
-        "<iframe src='https://www.bilibili.com/html/html5player.html?aid=#{vid}&cid=#{cid}&as_wide=0' frameborder='0' width='820' height='430' allowfullscreen></iframe>"
+        "<iframe src='https://www.bilibili.com/html/player.html?aid=#{vid}&cid=#{cid}&as_wide=0' frameborder='0' width='820' height='430' allowfullscreen></iframe>"
       end
 
       def placeholder_html
